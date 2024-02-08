@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"><title>Vasitum</title>
+</head>
+<body>
+    <div class="main">
+        <div class="menubar">
+           <div class="logo"></div> 
+            <div class="menu_options">
+                <span class="text_mainmenu">Main menu</span>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_dashboard.png" alt="Logo" class="Dashboard_logo"><span id="Dashboard_text">Dashboard</span>
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_recruitment.png" alt="Logo" class="Recruitment_logo"><span>Recruitment</span>
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_scheduler.png" alt="Logo" class="Schedule_logo"><span>Schedule
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_employee.png" alt="Logo" class="Employee_logo"><span>Employee
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_department.png" alt="Logo" class="Department_logo"><span>Department
+                    </a>
+                </div>
+            </div>
+            <div class="other_options">
+                <span class="text_other">Other</span>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_support.png" alt="Logo" class="Dashboard_logo"><span>Support</span>
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#redirect">
+                        <img src="ic_settings.png" alt="Logo" class="Dashboard_logo"><span>Setting</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home">
+            <nav>
+                <div class="navbar">
+                    <div class="search-container">
+                        <button onclick="expandMenu()" class="burger_menu"></button>
+                        <input type="text" class="search-input" placeholder="Search">                        
+                        <img src="ic_search.png" alt="Search Icon" class="search-icon">
+                    </div>
+                    <div class="navoptions">
+                        <a href="">
+                            <img src="ic_round-notifications.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="bi_chat-left-dots-fill.png" alt="">
+                        </a>
+                        <div class="profile">
+                            <img src="unsplash_OH2S9XAcLhc.png" alt="">
+                            <span>Admirra Jhon</span>
+                            <div class="dropdown">
+                                <button class="dropbtn"></button>
+                                <div class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+           <span class="Dashboard">Dashboard</span>
+           <div class="home_content">
+                <div class="side1">
+                    <div class="rectangle-group">
+                        <div class="rectangle1" id="red">
+                            <span class="r1">available Postions</span>
+                            <span class="r2">24</span>
+                            <span class="r3" id="red">4 urgently needed</span>
+                        </div>
+                        <div class="rectangle1" id="blue">
+                            <span class="r1">Job open</span>
+                            <span class="r2">10</span>
+                            <span class="r3" id="blue">4 Active Hiring</span>
+                        </div>
+                        <div class="rectangle1" id="pink">
+                            <span class="r1">New employees</span>
+                            <span class="r2">24</span>
+                            <span class="r3" id="pink">4 Department</span>
+                        </div>
+                    </div>
+                    <div class="rectangle-group">
+                        <div class="rectangle2">
+                            <div class="rectangle2_side1">
+                                <span class="rectangle2_col1" id="total_employees">total employees</span>
+                                <span class="rectangle2_col1" id="number">216</span>
+                                <span class="rectangle2_col1" id="men">120 men</span>
+                                <span class="rectangle2_col1" id="women">96 women</span>
+                            </div>
+                            <div class="rectangle2_side2">
+                                 <img src="graph1.png" alt="">
+                                 <span id="result">+2% past month</span>
+                            </div>
+                        </div>
+                        <div class="rectangle2">
+                            <div class="rectangle2_side1">
+                                <span class="rectangle2_col1" id="total_employees">talent request</span>
+                                <span class="rectangle2_col1" id="number">16</span>
+                                <span class="rectangle2_col1" id="men">6 men</span>
+                                <span class="rectangle2_col1" id="women">10 women</span>
+                            </div>
+                            <div class="rectangle2_side2">
+                                 <img src="graph2.png" alt="">
+                                 <span id="result">+5% past month</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rectangle-group">
+                        <div class="rectangle3">
+                            <div class="rectangle3_r1">
+                                <span class="Announcement">Announcement</span>
+                                <div class="Date_container">
+                                    <span class="Date">Today, 13 Sep 2021</span>
+                                    <div class="rectangle3_dropdown">
+                                        <button class="rectangle3_dropbtn"></button>
+                                        <div class="rectangle3_dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rectangle3_r2">
+                                <div class="Announcement_options"> 
+                                    <div class="Announcement_options_side1">
+                                        <span id="title">Outing schedule for every department</span>
+                                        <span id="time"> 5 Minutes Ago</span>
+                                    </div>
+                                    <div class="Announcement_options_side2">
+                                        <button><img src="bi_pin-angle-fill.png" alt=""></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="Announcement_options">
+                                    <div class="Announcement_options_side1">
+                                        <span id="title">Meeting HR Department</span>
+                                        <span id="time"> Yesterday, 12:30 PM</span>
+                                    </div>
+                                    <div class="Announcement_options_side2">
+                                        <button><img src="bi_pin-angle-fill.png" alt=""></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="Announcement_options">
+                                    <div class="Announcement_options_side1">
+                                        <span id="title">It department need two more talent for UX/UI Designer Postions</span>
+                                        <span id="time"> Yesterday, 09:15 AM</span>
+                                    </div>
+                                    <div class="Announcement_options_side2">
+                                        <button><img src="bi_pin-angle-fill.png" alt=""></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="Announcement_options">
+                                    <div class="Announcement_options_side1">
+                                        <span id="title">Outing schedule for every department</span>
+                                        <span id="time"> 5 Minutes Ago</span>
+                                    </div>
+                                    <div class="Announcement_options_side2">
+                                        <button><img src="bi_pin-angle-fill.png" alt=""></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rectangle3_r3">
+                                <a href="">See all Announcement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side2">
+                    <div class="rectangle-group">
+                        <div class="rectangle4">
+                            <div class="rectangle4_r1">
+                                <span>recently activity</span>
+                            </div>
+                            <div class="rectangle4_r2">
+                                <span id="rectangle4_r2_time">10.40 AM, Fri 10 Sept 2021</span>
+                                <span id="rectangle4_r2_title">you posted a new job</span>
+                                <span id="rectangle4_r2_description">Kindly Check the requirements and terms of work and make sure everything is right</span>
+                            </div>
+                            <div class="retangle4_r3">
+                                <span id="retangle4_r3_text">Today you makes 12 Activity</span>
+                                <a href="">See All Activity</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rectangle-group">
+                        <div class="rectangle5">
+                            <div class="rectangle5_r1">
+                                <span class="Announcement">Upcoming Schedule</span>
+                                <div class="Date_container">
+                                    <span class="Date">Today, 13 Sep 2021</span>
+                                    <div class="rectangle3_dropdown">
+                                        <button class="rectangle3_dropbtn"></button>
+                                        <div class="rectangle3_dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rectangle5_r2">
+                                <span id="rectangle5_r2_priority">priority</span>
+                                <div class="rectangle5_Announcement_options"> 
+                                    <div class="rectangle5_Announcement_options_side1">
+                                        <span id="rectangle5_title">review candidate applications</span>
+                                        <span id="rectangle5_time"> Today - 11:30 AM</span>
+                                    </div>
+                                    <div class="rectangle5_Announcement_options_side2">
+                                        <button></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <span id="rectangle5_r2_other">other</span>
+                                <div class="rectangle5_Announcement_options"> 
+                                    <div class="rectangle5_Announcement_options_side1">
+                                        <span id="rectangle5_title">Interview with candidates</span>
+                                        <span id="rectangle5_time"> Today - 10.30 AM</span>
+                                    </div>
+                                    <div class="rectangle5_Announcement_options_side2">
+                                        <button></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="rectangle5_Announcement_options"> 
+                                    <div class="rectangle5_Announcement_options_side1">
+                                        <span id="rectangle5_title">Short meeting with product designer from IT Department</span>
+                                        <span id="rectangle5_time"> Today - 09.15 AM</span>
+                                    </div>
+                                    <div class="rectangle5_Announcement_options_side2">
+                                        <button></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="rectangle5_Announcement_options"> 
+                                    <div class="rectangle5_Announcement_options_side1">
+                                        <span id="rectangle5_title">Interview with candidates</span>
+                                        <span id="rectangle5_time"> Today - 10.30 AM</span>
+                                    </div>
+                                    <div class="rectangle5_Announcement_options_side2">
+                                        <button></button>
+                                        <button><img src="carbon_overflow-menu-horizontal.png" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rectangle5_r3">
+                                <a href="">create new schedule</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        
+    </div>
+</body>
+</html>
